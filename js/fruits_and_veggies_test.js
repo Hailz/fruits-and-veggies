@@ -12,3 +12,12 @@ var vegetables = [
   'Arugula',
   'Asparagus'
 ];
+
+var combined = [
+  'Artichoke',
+  'Arugula',
+  'Asparagus',
+  'Apple',
+  'Apricot',
+  'Banana'
+];

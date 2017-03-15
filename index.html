@@ -12,7 +12,7 @@
     </head>
 
     <body ng-controller="fruitOrVeg">
-        <div class="container">
+        <div class="container text-center">
             <h1>Fruit and Veggies</h1>
             <div class="row">
                 <div class="col-sm-4">
@@ -24,7 +24,7 @@
                 <div class="col-sm-4">
                   <h1>To Sort: </h1>
                   <ul>
-                    <li ng-repeat="item in combined track by $index"><button ng-click="addFruit()"><-F</button> {{ item }}<button ng-click="addVeg()">V-></button></li>
+                    <li ng-repeat="item in combined track by $index"><button ng-click="addFruit()"><-</button> {{ item }}<button ng-click="addVeg()">-></button></li>
                   </ul>
                 </div>
                 <div class="col-sm-4">

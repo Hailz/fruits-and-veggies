@@ -13,11 +13,3 @@ var vegetables = [
   'Asparagus'
 ];
 
-var combined = [
-  'Artichoke',
-  'Arugula',
-  'Asparagus',
-  'Apple',
-  'Apricot',
-  'Banana'
-];
